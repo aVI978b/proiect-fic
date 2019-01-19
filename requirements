@@ -1,0 +1,20 @@
+1. Jocul va fi un platformer 3D.
+2. Jocul va fi dezvoltat in Unreal Engine 4.
+3. Keybindings :W,A,S,D - movement
+                Space - jump
+                Shift - dash forward
+                Left Click - interact
+4. 10 nivele in total.
+5. Meniu principal cu selectie nivel, setari si optiune de iesire din joc.
+6. Meniu pauza in cadrul jocului cu optiune de schimbare setari si iesire din joc.
+7. Trecerea la un nivel urmator se va realiza prin colizia modelului jucatorului cu un obiect anume, aflat la finalul nivelului.
+8. Parcurgerea nivelului se va realiza sarind pe o succesiune de platforme.
+9. Nivelul se reseteaza la cadere (cand exista colizie cu un anume obiect situat sub platforme).
+10.Platforme sunt statice sau se deplaseaza/rotesc dupa traiectorii prestabilite.
+11.Implementare platforme cu optiune de "bounce". La contact deplaseaza jucatorul intr-o anumita directie.
+12.Implementare platforme care "cad" odata in contact cu modelul jucatorului.
+13.Cronometru pentru speedrun, va tine minte in cat timp a fost terminat fiecare nivel.
+14.Daca se inregistreaza o valoare pentru timp mai mica decat cea precedenta atunci se va inlocui cu aceasta.
+15.Afisarea timpilor de parcurgere se face din meniul de selectie al nivelurilor, fiind afisat in dreapta nivelului.
+16.Butoane de interactiune. Left Click pe acestea va determina deplasarea platformelor.
+17.Din meniul de setari se vor putea configura keybinding-urile, schimba rezolutia si volumul.
